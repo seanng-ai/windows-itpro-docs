@@ -97,7 +97,7 @@ To configure this policy with MDM, use [DetectionFrequency](/windows/client-mana
 
 ### Remove access to use all Windows Update features
 
-By enabling the Group Policy setting under **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**, administrators can disable the "Check for updates" option for users. Any background update scans, downloads and installations will continue to work as configured.
+By enabling the Group Policy setting under **Computer Configuration\Administrative Templates\Windows Components\Windows update\Remove access to use all Windows update features**, administrators can disable the "Check for updates" option for users. Any background update scans, downloads and installations will continue to work as configured. By enabling this Policy setting, it will also enable setting for "Do not connect to any Windows Update Internet locations" as well. 
 
 ### Do not connect to any Windows Update Internet locations
 
